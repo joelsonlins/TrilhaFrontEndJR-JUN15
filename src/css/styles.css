@@ -128,6 +128,13 @@ color: #000;
   background-color: #000 !important;
   color: #fff;
 }
+
+.tema__dark header{
+  & .menu__desk a:hover{
+    color: #5c5c5c;
+  }
+}
+
 /* Cabeçalho */
 header {
   position: fixed;
