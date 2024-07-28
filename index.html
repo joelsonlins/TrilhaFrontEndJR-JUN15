@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Menu. -->
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img class="logo__img" src="src/images/logo.PNG" alt="logo código certo">
+                </a>
+            </div>
+            <nav class="menu__desk">
+                <ul>
+                    <li><a href="#banner">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#motivacao">Motivação</a></li>
+
+                </ul>
+            </nav>
+            <div id="#contato btn__menu" class="btn__contato btn__topo">
+                <a href="#motivacao">
+                    <button>Contato</button>
+                </a>
+                
+            </div>
+            <div class="tema" id="tema">
+                
+                <div class="indicador">
+
+                </div>
+
+            </div>
+            <div id="btn__menu__mobile" class="btn__open">
+                <i class="bi bi-list"></i>
+            </div>
+            <div id="menu__mobile" class="menu__mobile">
+                <div class="btn__fechar">
+                    <i class="bi bi-x-lg"></i>
+        
+                    <nav>
+                        <ul>
+                            <li><a href="#banner">Início</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#hobbies">Hobbies</a></li>
+                            <li><a href="#motivacao">Motivação</a></li>
+                            <li><a href="#contato">Contato</a></li>
+        
+                        </ul>
+                    </nav>
+                </div>
+        
+            </div>
+            <div id="overlay__menu" class="overlay__menu">
+
+            </div>
+            
+        </div>
+    </header>
+    <main>
+        <!-- Banner Principal -->
+        <section id="banner" class="interface banner__principal">
+           
+                <div class="banner__txt">
+                    <h1 class="txt__animado">Eu sou Joelson Lins,<br> <span></span></h1>
+                    <p>Projeto desenvolvido como condição para avaliação e ingresso no programa código certo, na trilha FrontEnd.</p>
+                    <div id="vamosconversar" class="btn__contato btn__conversar">
+                        <a href="https://web.whatsapp.com/send?phone=5582981465055" target="_blank">
+                            <button>Vamos converar!</button>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="banner__img">
+                    <img src="src/images/avatar.png" alt="chamar no whatsapp">
+                </div>
+            
+        </section>
+
+        <!-- Sobre Mim -->
+        <section class="sobre interface" id="sobre">
+           
+                <div class="sobre__container">
+                    <div class="sobre__content">
+                        <h2 class="sobre__h2">Sobre mim</h2>
+                        <p>Eu sou Joelson Lins, desenvolvedor web de Arapiraca-Al, 38 anos,
+                            Formado como analista de sistemas, tenho conhecimentos técnicos
+                            em html, css, JavaScript e React entre outras liguagens de
+                            programação como python e java, além de forte capacidade de
+                            liderança, perseverança, criatividade e racionalidae. Busco
+                            oportunidade para aplicar minha expertise em projetos desafiadores
+                            e contribuir para o avanço da comunidade de desenvolvimento web
+                            no Brasil.
+                        </p>
+                        <div class="about__social">
+                            <a href="https://x.com/JoelsonLins" target="_blank"><i class="fab fa-twitter"
+                                    style="color:#e53939;"></i></a>
+                            <a href="https://www.instagram.com/joelsonlins/" target="_blank"><i class="fab fa-instagram"
+                                    style="color:#e53939;"></i></a>
+                            <a href="https://www.linkedin.com/in/joelsonlins/" target="_blank"><i class="fab fa-linkedin"
+                                    style="color:#e53939;"></i></a>
+                            <a href="https://github.com/joelsonlins" target="_blank"><i class="fab fa-github"
+                                    style="color:#e53939;"></i></a>
+
+                        </div>
+                        <div class="btn__contato btn__sobre">
+                            <a href="./src/Documents/Curriculo_2024.pdf" download="Curriculo_2024.pdf" type="application/pdf">
+                                <button>Download CV</button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+           
+
+        </section>
+
+        <!-- Hobbies -->
+        <div id="hobbies" class="container__hobbies interface">
+            <h2 class="sobre__h2" style="color: #000;">HOBBIES</h2>
+            <input type="radio" name="slider" id="filmeseseries" checked>
+            <input type="radio" name="slider" id="blog">
+            <input type="radio" name="slider" id="code">
+            <input type="radio" name="slider" id="help">
+
+            <nav>
+                <label for="filmeseseries" class="filmeseseries">Filmes/Séries</label>
+                <label for="blog" class="blog">Livros</label>
+                <label for="code" class="code">Corpo e Mente</label>
+                <label for="help" class="help">Estudos</label>
+
+                <div class="slider"></div>
+            </nav>
+            <section class="cards">
+                <div class="content__hobbies content-1">
+                    <div id="card-area">
+                        <div class="wrapper">
+                            <div class="box-area">
+                                <div class="box ">
+                                    <img alt="" src="src/images/fringe.jpg" alt="seriado fringe">
+                                    <div class="overlay">
+                                        <h3>Fringe</h3>
+                                        <p>
+                                            A agente do FBI Olivia Dunham investiga crimes incomuns com Walter Bishop,
+                                            seu filho Peter e a agente Astrid Farnsworth.</p><a
+                                            href="https://t.me/fringe_movies" target="_blank">Assista Aqui</a>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img alt="" src="src/images/interestelar.jpg" alt="filme interestelar">
+                                    <div class="overlay">
+                                        <h3>Interestelar</h3>
+                                        <p>Interestelar explora uma jornada espacial para salvar a humanidade, misturando ciência, amor, e o tempo como dimensões interligadas.</p><a
+                                            href="https://t.me/+L0e8OFibAvE4MTk5" target="_blank">Assista Aqui</a>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img alt="" src="src/images/the_boys.jpg" alt="seriado the boys">
+                                    <div class="overlay">
+                                        <h3>The Boys</h3>
+                                        <p>The Boys expõe super-heróis corruptos, seguindo um grupo vigilante que combate abusos de poder, misturando ação, humor negro e crítica social.</p><a href="https://t.me/TheBoys1Tempo" target="_blank">Assista Aqui</a>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img alt="" src="src/images/the_chosen.jpg" alt="seriado the chosen">
+                                    <div class="overlay">
+                                        <h3>The Chosen</h3>
+                                        <p>The Chosen retrata a vida de Jesus Cristo, destacando seus ensinamentos e milagres, explorando suas relações com discípulos e seguidores.</p><a href="https://osescolhidos.tv/" target="_blank">Assista Aqui</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__hobbies content-2">
+                    <div id="card-area">
+                        <div class="wrapper">
+                            <div class="box-area">
+                                <div class="box ">
+                                    <img alt="" src="src/images/garra.jpg" alt="livro garra">
+                                    <div class="overlay">
+                                        <h3>Garra</h3>
+                                        <p>Explora como paixão e perseverança são essenciais para o sucesso, destacando histórias inspiradoras e pesquisa psicológica sobre determinação.</p><a href="https://www.amazon.com.br/Garra-Paix%C3%A3o-Perseveran%C3%A7a-Angela-Duckworth/dp/8551000020/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=9WYYXD3PLFXC&dib=eyJ2IjoiMSJ9.634lJ_CiWEuTKgbRobW-1ydsT5oqLB5GKqxsjiGm17DoP_xrpPEkagb-LFJMgBL0vcPnOH7ffiUPNWmVTdz1pI9WKq7JGUENBZNbTvxB00T_Zh9LTp4olq94W1BOMClyVRcQikanNLUS05FVDA1ZU8JofKnp_mOKDo6jHNuBS9QnwhenUi1eDJPK6bPZwyhyHIWTkEseMU5JN2pj2Oz9rgz55YNe5uzGxRg9j1nJ921vnbNcH_oMc8Y0NTMmRUB5JfJ4emDI8wla0ZVYBfGpWDUZUpyHd2RN1E2vXmBGVAs.1RHlkW_sP9wp8Mq9KCITmDbL7yA1ZEuNbf28YgIoc_U&dib_tag=se&keywords=garra&qid=1721681593&sprefix=garr%2Caps%2C180&sr=8-1" target="_blank">Compre Aqui</a>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img alt="" src="src/images/ultra_aprendizado.jpg">
+                                    <div class="overlay">
+                                        <h3>Ultra Aprendizado</h3>
+                                        <p>Ensina técnicas intensivas de autoeducação, destacando estratégias práticas para adquirir habilidades rapidamente e alcançar a maestria pessoal.</p><a href="https://www.amazon.com.br/Ultra-aprendizado-habilidades-valiosas-competi%C3%A7%C3%A3o-carreira/dp/6555110058/ref=sr_1_1?crid=1FYF9GBA04UC3&dib=eyJ2IjoiMSJ9.avADHACNkuEYBKAIYttH099W1L61t4glkQZC6-CMs1H5ofFiNJ3OK7PT8Pf-G1wTo6BBBfOwHP2na9nuDkcht42Ziqtc0kzElOFfMiGpsxWBtJ39fKiBmuQ-DDpZTc52gA-aTOXR4tqzsq-M1JhGlZNo-UoFIYfKRZUGrkxHKmb87Xc1rhrtcGXNU0yUzuB5-N0OmlTMcEHZQ80gmJc2ES21TNfRNa87MA1y_V5z7kIZ32wKNc1AHsX-6UlEkOt4Q3icJ5xnMfBIdWsMxEqKahxSl4lAJFrlY9swofQnHyA.OR866HZrBovApVmJEDLOaVx1iZrsRl2JDLY6Z2jufv4&dib_tag=se&keywords=ultra+aprendizado&qid=1721681549&sprefix=ultra+apre%2Caps%2C193&sr=8-1" target="_blank">Compre Aqui</a>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img alt="" src="src/images/codigo_limpo.jpg">
+                                    <div class="overlay">
+                                        <h3>Código Limpo</h3>
+                                        <p>Ensina práticas de programação para escrever código legível e eficiente, destacando princípios de design, refatoração e testes rigorosos.
+                                        </p><a href="https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15VGEPPYSPRTB&dib=eyJ2IjoiMSJ9.5AFjMHmkVcZ-CKmcya9HN3bTBDAeK6NCMhly2erj6zl50QsPpnqwGMpYy1BQ9NOTRJHTRFjRBRsAGK2DnGw8SjscZ2zsyoSJ0DjGWFjjLwWo9hujkNFxScYTGVeaQt4pI_l10IMJEv_ruN8id_pqhO2MNxZp6sm02roggUWWkncVgR_wl5EcD8Pmm598zdpd7s7YSQmagYnwwz3ngJ7vYC_3dYqCVapygOHQBAb6nwvY9ZlDCBNctO6cGHv0Sv4E46_RjsJoGguiHwKII_e4cg4IKFCGEY1TWEeWhGp8RcU.e-u5jYmvSU_rhMRJeDrs8Euo4GS98SC75Qp_xtzbyCg&dib_tag=se&keywords=c%C3%B3digo+limpo&qid=1721681626&sprefix=c%C3%B3digo+limpo%2Caps%2C185&sr=8-1" target="_blank">Compre Aqui</a>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img alt="" src="src/images/entendendo_algoritmos.jpg">
+                                    <div class="overlay">
+                                        <h3>Entendendo Algoritmos</h3>
+                                        <p>Explica fundamentos de algoritmos e estruturas de dados de maneira acessível, usando exemplos práticos para ilustrar conceitos complexos.</p><a href="https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programadores-Curiosos/dp/8575225634/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1OFK2NB870F64&dib=eyJ2IjoiMSJ9._BQwo6gWOY4D3ovtes49F8xVoGp_Ni7R6tB4rBFOYEOxM-VV5sY9HO81eq5xzGGvjQCtS76q7966TcroZgAH0tRji6HC4PJSTe76b3t0NxuytkEboUkLB58aJ6Z38oe1T_uWoE_6CcKoXNrtUIXmL52aRxQYzmUo714bmy0a5So2KchwbnXU0pbAVR8H4q-3Q4vPDm6lib5pUZDXmwVs5Dx2kedSNqSrzr2eYF_wchVeKlzrPYm6eWaclAYk1xi16l550NtLkUGYVWeVCZRI7NVgoukTK79FqGdBNWGznpQ.bQ_wnwjlhWaIakKlWpBRTGLVPwzyLTBV7B1WvToNnmo&dib_tag=se&keywords=Entendendo+algoritmos&qid=1721681653&sprefix=entendendo+algoritmo%2Caps%2C185&sr=8-1" target="_blank">Compre Aqui</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__hobbies content-3">
+                    <div id="card-area">
+                        <div class="wrapper">
+                            <div class="box-area">
+                                <div class="box ">
+                                    <img alt="" src="src/images/academia.jpg">
+                                    <div class="overlay">
+                                        <h3>Academia</h3>
+                                        <p>Prático exercícios 6 vezes por semana.</p>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img alt="" src="src/images/devocional.jpg">
+                                    <div class="overlay">
+                                        <h3>Devocional</h3>
+                                        <p>Todos os dias faço devocional para entender e me conectar com Deus.</p>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img alt="" src="src/images/estudo_biblico.jpg">
+                                    <div class="overlay">
+                                        <h3>Estúdos Bíblicos</h3>
+                                        <p>Me reuno semanalmente com amigos para estudar a palavra de Deus.</p>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img alt="" src="src/images/meditacao.jpg">
+                                    <div class="overlay">
+                                        <h3>Meditação</h3>
+                                        <p>Três vezes por semana ou sempre que necessário meidito..</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__hobbies content-4">
+                    <div id="card-area">
+                        <div class="wrapper">
+                            <div class="box-area">
+                                <div class="box ">
+                                    <img alt="" src="src/images/curso_em_video.jpg">
+                                    <div class="overlay">
+                                        <h3>Curso Em Video</h3>
+                                        <p>Fiz alguns cursos e estou com o objetivo de zerar todos os cursos do guanabara.</p><a href="https://www.cursoemvideo.com/" target="_blank">Saiba Mais</a>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img alt="" src="src/images/Curso_javascript.jpg">
+                                    <div class="overlay">
+                                        <h3>JavaScript</h3>
+                                        <p>Estou finalizando o curso de JavaScript da DIO, uma das plataformas que foco meus estudos.</p><a href="https://web.dio.me/track/formacao-javascript-developer" target="_blank">Saiba Mais</a>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img alt="" src="src/images/ebac.jpg">
+                                    <div class="overlay">
+                                        <h3>Ebac FullStack Java</h3>
+                                        <p>Paralelamente estou assistindo o Curso fullStack da Eback</p><a href="https://ebaconline.com.br/full-stack-java" target="_blank">Saiba Mais</a>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img alt="" src="src/images/maisprati.jpg">
+                                    <div class="overlay">
+                                        <h3>Bootcamp</h3>
+                                        <p>Além disso estou realizando o bootcamp FullStack Java na +PraTi.</p><a href="https://www.instagram.com/maisprati/" target="_blank">Saiba Mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <!-- Motivação -->
+        <section id="motivacao" class="interface">
+            <div>
+                <h2>MOTIVAÇÃO</h2>
+                <p> Meu objetivo é conquistar minha primeira vaga como desenvolvedor através da experiência que ganharei no programa Código Certo. Além disso, quero contribuir e auxiliar todos que estão ingressando a desenvolverem suas habilidades e alcançarem seus sonhos na programação.
+                </p>
+                <p>
+                    Acredito no poder transformador da programação e estou comprometido em criar um ambiente colaborativo, desafiador e próspero. Juntos, podemos gerar frutos que também gerarão mais frutos, beneficiando toda a comunidade e impulsionando a área de desenvolvimento para novos patamares.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="interface">
+            <div><h2>CONTATO</h2></div>
+            <form action="https://formsubmit.co/ajax/joelsonlins@hotmail.com" method="POST" data-form>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" required></textarea>
+                <button class="btn__contato" type="submit" data-button>Enviar</button>
+
+            </form>
+
+        </section>
+
+        
+        <!-- Botao Flutuante whatsapp -->
+        <div id="div__fixa" class="flutuar" data-shrink="yes">
+            <a href="https://web.whatsapp.com/send?phone=5582981465055" target="_blank">
+                <div class="flex__itens">
+                    <img src="src/images/whatsapp.png" alt="">
+                    <span>Converse Conosco!</span>
+                </div>
+            </a>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer class="interface ">
+        <div id="footer__content">
+            <div id="footer__contents">
+                <div class="logo">
+                    <a href="#">
+                        <img class="logo__img" src="src/images/logo.PNG" alt="logo código certo">
+                    </a>
+                </div>
+                <p>Construindo o amanhã, hoje.</p>
+                <div id="footer__social__media" >
+                    <a href="https://x.com/JoelsonLins" target="_blank"><i class="fab fa-twitter" 
+                            style="color:#e53939;"></i></a>
+                    <a href="https://www.instagram.com/joelsonlins/" target="_blank"><i class="fab fa-instagram"
+                            style="color:#e53939;"></i></a>
+                    <a href="https://www.linkedin.com/in/joelsonlins/" target="_blank"><i class="fab fa-linkedin"
+                            style="color:#e53939;"></i></a>
+                    <a href="https://github.com/joelsonlins" target="_blank"><i class="fab fa-github"
+                            style="color:#e53939;"></i></a>
+                </div>
+            </div>
+            <ul class="footer__list">
+                <li><a class="footer__link" href="#banner">Início</a></li>
+                <li><a class="footer__link" href="#sobre">Sobre</a></li>
+                
+                
+            </ul>
+            <ul class="footer__list">       
+                <li><a class="footer__link" href="#hobbies">Hobbies</a></li>          
+                <li><a class="footer__link" href="#motivacao">Motivação</a></li>
+                
+            </ul>
+            <div id="footer__subscribe">
+                <h3>Subscribe</h3>
+                <p>Entre com seu email para
+                receber mais informações</p>
+                <div id="input__group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="footer__copyright">
+            &#169
+            2024 Todos os direitos reservados.
+        </div>
+    </footer>
+
+ 
+    <script src="src/js/script.js" defer></script>
+</body>
+
+</html>
